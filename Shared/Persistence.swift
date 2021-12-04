@@ -17,7 +17,7 @@ struct PersistenceController {
             let newItem = Task(context: viewContext)
             newItem.timestamp = Date()
             newItem.name = "Test \(index)"
-            newItem.completed = false
+            newItem.completed = true
         }
         do {
             try viewContext.save()

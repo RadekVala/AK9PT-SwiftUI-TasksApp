@@ -24,9 +24,10 @@ struct ContentView: View {
             List {
                 ForEach(items) { item in
                     NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
+                        TaskDetailView(currentItem: item)
                     } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
+                        //Text(item.timestamp!, formatter: itemFormatter)
+                        Text("\(item.name ?? "name not set")")
                     }
                 }
                 .onDelete(perform: deleteItems)
@@ -84,13 +85,6 @@ struct ContentView: View {
         }
     }
 }
-
-private let itemFormatter: DateFormatter = {
-    let formatter = DateFormatter()
-    formatter.dateStyle = .short
-    formatter.timeStyle = .medium
-    return formatter
-}()
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

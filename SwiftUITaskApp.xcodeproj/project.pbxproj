@@ -19,6 +19,8 @@
 		CDC8D150275B4C1600D0870B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC8D139275B4C1600D0870B /* Assets.xcassets */; };
 		CDC8D15A275B54E400D0870B /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8D159275B54E400D0870B /* AddTaskView.swift */; };
 		CDC8D15B275B54E400D0870B /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8D159275B54E400D0870B /* AddTaskView.swift */; };
+		CDC8D15D275B620C00D0870B /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8D15C275B620C00D0870B /* TaskDetailView.swift */; };
+		CDC8D15E275B620C00D0870B /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC8D15C275B620C00D0870B /* TaskDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,7 @@
 		CDC8D144275B4C1600D0870B /* SwiftUITaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC8D146275B4C1600D0870B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		CDC8D159275B54E400D0870B /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		CDC8D15C275B620C00D0870B /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,7 @@
 			children = (
 				CDC8D136275B4C1400D0870B /* SwiftUITaskAppApp.swift */,
 				CDC8D137275B4C1400D0870B /* ContentView.swift */,
+				CDC8D15C275B620C00D0870B /* TaskDetailView.swift */,
 				CDC8D138275B4C1400D0870B /* Persistence.swift */,
 				CDC8D139275B4C1600D0870B /* Assets.xcassets */,
 				CDC8D134275B4C1400D0870B /* SwiftUITaskApp.xcdatamodeld */,
@@ -190,6 +194,7 @@
 			files = (
 				CDC8D149275B4C1600D0870B /* SwiftUITaskAppApp.swift in Sources */,
 				CDC8D15A275B54E400D0870B /* AddTaskView.swift in Sources */,
+				CDC8D15D275B620C00D0870B /* TaskDetailView.swift in Sources */,
 				CDC8D14D275B4C1600D0870B /* Persistence.swift in Sources */,
 				CDC8D147275B4C1600D0870B /* SwiftUITaskApp.xcdatamodeld in Sources */,
 				CDC8D14B275B4C1600D0870B /* ContentView.swift in Sources */,
@@ -202,6 +207,7 @@
 			files = (
 				CDC8D14A275B4C1600D0870B /* SwiftUITaskAppApp.swift in Sources */,
 				CDC8D15B275B54E400D0870B /* AddTaskView.swift in Sources */,
+				CDC8D15E275B620C00D0870B /* TaskDetailView.swift in Sources */,
 				CDC8D14E275B4C1600D0870B /* Persistence.swift in Sources */,
 				CDC8D148275B4C1600D0870B /* SwiftUITaskApp.xcdatamodeld in Sources */,
 				CDC8D14C275B4C1600D0870B /* ContentView.swift in Sources */,

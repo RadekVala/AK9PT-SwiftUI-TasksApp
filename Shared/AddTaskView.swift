@@ -20,6 +20,7 @@ struct AddTaskView: View {
                 .font(.largeTitle)
                 .fontWeight(.black)
                 .foregroundColor(Color.orange)
+                .padding()
             
             Spacer()
             
